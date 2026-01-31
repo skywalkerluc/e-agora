@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "version": "1.0",
+    "target_age": "0-12 meses",
+    "last_updated": "2025-01-31"
+  },
+  "categories": [
+    {
+      "id": "alimentacao",
+      "name": "Alimentação",
+      "situations": [
+        {
+          "id": "amamentacao_pega_incorreta",
+          "title": "Pega incorreta no peito",
+          "normal": "Comum nas primeiras semanas. Bebê pode não abocanhar a aréola toda, causando dor e pouco leite.",
+          "what_to_do": "Posicionar bebê barriga com barriga, esperar boca bem aberta, garantir que aréola esteja dentro da boca. Buscar apoio de consultora de amamentação se persistir.",
+          "seek_doctor_if": "Rachaduras com sangramento, dor intensa que não melhora, bebê não ganha peso.",
+          "source": "SBP — Guia de Aleitamento Materno, 2023"
+        },
+        {
+          "id": "amamentacao_leite_insuficiente",
+          "title": "Sensação de pouco leite",
+          "normal": "Muito comum. Mamas menos cheias após as primeiras semanas não significa pouco leite — é regulação natural.",
+          "what_to_do": "Observar sinais de saciedade: bebê relaxado após mamada, 6+ fraldas molhadas/dia, ganho de peso adequado. Amamentar em livre demanda.",
+          "seek_doctor_if": "Menos de 6 fraldas molhadas/dia, perda de peso, bebê irritado após todas as mamadas.",
+          "source": "OMS — Guia de Aleitamento Materno, 2022"
+        },
+        {
+          "id": "formula_quantidade",
+          "title": "Quantidade de fórmula por mamadeira",
+          "normal": "Varia por idade e peso. Recém-nascido: 30-60ml. 1-2 meses: 60-120ml. 3-6 meses: 120-180ml. Bebê regula o que precisa.",
+          "what_to_do": "Seguir orientação da lata como base, ajustar conforme aceitação do bebê. Não forçar a terminar.",
+          "seek_doctor_if": "Bebê recusa mamadeiras consecutivas, vômitos frequentes, não ganha peso.",
+          "source": "AAP — Formula Feeding FAQ, 2023"
+        },
+        {
+          "id": "introducao_alimentar_quando",
+          "title": "Quando começar introdução alimentar",
+          "normal": "A partir dos 6 meses completos. Sinais de prontidão: sustentar cabeça, sentar com apoio, interesse por comida, perda do reflexo de protrusão.",
+          "what_to_do": "Começar com alimentos amassados ou em pedaços seguros (BLW). Um alimento novo a cada 3 dias para observar reações.",
+          "seek_doctor_if": "Bebê engasga frequentemente, recusa total por mais de 2 semanas, reações alérgicas.",
+          "source": "SBP — Manual de Alimentação, 2021"
+        },
+        {
+          "id": "engasgo_vs_gag",
+          "title": "Diferença entre engasgo e reflexo de gag",
+          "normal": "Gag é reflexo protetor: bebê faz careta, tosse, pode vomitar, mas respira. Normal na introdução alimentar.",
+          "what_to_do": "No gag: não interferir, deixar bebê resolver. No engasgo real: bebê silencioso, sem ar, lábios roxos — agir imediato.",
+          "seek_doctor_if": "Engasgo real aconteceu (mesmo se resolvido), gag excessivo em todas as refeições.",
+          "source": "Cruz Vermelha — Primeiros Socorros Pediátricos, 2023"
+        }
+      ]
+    },
+    {
+      "id": "sono",
+      "name": "Sono",
+      "situations": [
+        {
+          "id": "sono_quantidade",
+          "title": "Quantas horas de sono por idade",
+          "normal": "0-3 meses: 14-17h. 4-6 meses: 12-15h. 7-12 meses: 12-14h. Inclui sonecas. Variação individual é grande.",
+          "what_to_do": "Observar sinais de sono: bocejos, esfregar olhos, irritação. Criar rotina consistente de horários.",
+          "seek_doctor_if": "Bebê dorme muito menos e está irritado constantemente, ou dorme excessivamente e difícil de acordar.",
+          "source": "National Sleep Foundation, 2023"
+        },
+        {
+          "id": "sono_regressao_4_meses",
+          "title": "Regressão de sono aos 4 meses",
+          "normal": "Sim. Padrão de sono muda de recém-nascido para ciclos adultos. Bebê acorda mais, dificuldade para dormir. Dura 2-6 semanas.",
+          "what_to_do": "Manter rotina, não criar novos hábitos que você não quer manter (ex: ninar no colo toda vez). Paciência.",
+          "seek_doctor_if": "Irritabilidade extrema durante o dia, recusa alimentar, sinais de doença.",
+          "source": "Sleep Foundation — Baby Sleep Regression, 2023"
+        },
+        {
+          "id": "sono_posicao",
+          "title": "Posição segura para dormir",
+          "normal": "Sempre de barriga pra cima até 1 ano. Quando bebê rola sozinho (ambos os lados), pode ficar na posição que escolher.",
+          "what_to_do": "Berço sem travesseiros, cobertores soltos, bichos de pelúcia. Colchão firme. Temperatura ambiente confortável.",
+          "seek_doctor_if": "Bebê só dorme de bruços e ainda não rola, dificuldade respiratória em qualquer posição.",
+          "source": "AAP — Safe Sleep Guidelines, 2022"
+        },
+        {
+          "id": "sono_despertar_noturno",
+          "title": "Acordar várias vezes à noite",
+          "normal": "Sim até 6-12 meses. Ciclos de sono curtos, fome, conforto. Frequência diminui gradualmente.",
+          "what_to_do": "Verificar fome, fralda, temperatura. Tentar acalmar sem tirar do berço primeiro. Consistência na resposta.",
+          "seek_doctor_if": "Acordar com choro intenso inconsolável, sinais de dor, mudança súbita de padrão.",
+          "source": "SBP — Sono na Infância, 2022"
+        },
+        {
+          "id": "sono_soneca_curta",
+          "title": "Sonecas muito curtas",
+          "normal": "Sonecas de 30-45min são comuns até 5-6 meses. Bebê ainda não conecta ciclos de sono durante o dia.",
+          "what_to_do": "Ambiente escuro e silencioso, rotina pré-soneca, tentar estender com presença ou ruído branco.",
+          "seek_doctor_if": "Bebê extremamente irritado por falta de sono, não consegue ficar acordado nem 1h.",
+          "source": "Mindell JA — Pediatric Sleep, 2023"
+        }
+      ]
+    },
+    {
+      "id": "desenvolvimento_motor",
+      "name": "Desenvolvimento Motor",
+      "situations": [
+        {
+          "id": "motor_sustentar_cabeca",
+          "title": "Sustentar a cabeça",
+          "normal": "Controle parcial: 1-2 meses. Sustenta bem: 3-4 meses. Variação de algumas semanas é normal.",
+          "what_to_do": "Tummy time diário desde as primeiras semanas (2-3 sessões curtas). Estimular com brinquedos na frente.",
+          "seek_doctor_if": "Não sustenta cabeça aos 4 meses, cabeça sempre pendendo para um lado.",
+          "source": "CDC — Developmental Milestones, 2023"
+        },
+        {
+          "id": "motor_rolar",
+          "title": "Rolar",
+          "normal": "Barriga pra costas: 4-5 meses. Costas pra barriga: 5-6 meses. Alguns bebês pulam essa fase.",
+          "what_to_do": "Tummy time, brinquedos nas laterais para estimular virar. Não forçar.",
+          "seek_doctor_if": "Não rola pra nenhum lado aos 7 meses, assimetria marcante de movimento.",
+          "source": "SBP — Caderneta da Criança, 2023"
+        },
+        {
+          "id": "motor_sentar",
+          "title": "Sentar sem apoio",
+          "normal": "Com apoio: 4-5 meses. Sem apoio: 6-8 meses. Primeiro fica 'tripé' (apoiado nas mãos).",
+          "what_to_do": "Sentar com apoio de almofadas, deixar brinquedos ao alcance. Não usar apoiadores que forçam posição.",
+          "seek_doctor_if": "Não senta com apoio aos 6 meses, não senta sozinho aos 9 meses.",
+          "source": "CDC — Developmental Milestones, 2023"
+        },
+        {
+          "id": "motor_engatinhar",
+          "title": "Engatinhar",
+          "normal": "7-10 meses. Alguns engatinham de formas diferentes (arrastando, sentado). Alguns pulam direto pra andar.",
+          "what_to_do": "Chão livre e seguro, brinquedos à distância para motivar deslocamento. Não há necessidade de ensinar.",
+          "seek_doctor_if": "Não se desloca de nenhuma forma aos 12 meses.",
+          "source": "AAP — Movement Milestones, 2022"
+        },
+        {
+          "id": "motor_andar",
+          "title": "Primeiros passos",
+          "normal": "9-15 meses. Grande variação. Começar a andar tarde (até 18 meses) sem outros atrasos pode ser normal.",
+          "what_to_do": "Deixar descalço em casa, móveis para apoio, não usar andador (risco de atraso e acidentes).",
+          "seek_doctor_if": "Não anda aos 18 meses, anda só na ponta dos pés, assimetria marcante.",
+          "source": "SBP — Caderneta da Criança, 2023"
+        }
+      ]
+    },
+    {
+      "id": "desenvolvimento_social",
+      "name": "Desenvolvimento Social",
+      "situations": [
+        {
+          "id": "social_sorriso",
+          "title": "Sorriso social",
+          "normal": "6-8 semanas. Antes disso pode ser reflexo ou gases. Sorriso social é em resposta a rostos e vozes.",
+          "what_to_do": "Conversar com o bebê de perto, fazer expressões faciais, responder aos sorrisos.",
+          "seek_doctor_if": "Não sorri em resposta a estímulos aos 3 meses.",
+          "source": "CDC — Social Milestones, 2023"
+        },
+        {
+          "id": "social_contato_visual",
+          "title": "Contato visual",
+          "normal": "Recém-nascido foca a 20-30cm. Segue objetos com 1-2 meses. Contato visual sustentado aos 2-3 meses.",
+          "what_to_do": "Posicionar rosto próximo ao conversar, usar objetos de alto contraste nas primeiras semanas.",
+          "seek_doctor_if": "Não faz contato visual aos 3 meses, não segue objetos com os olhos.",
+          "source": "AAP — Vision Development, 2022"
+        },
+        {
+          "id": "social_estranhar",
+          "title": "Estranhar pessoas",
+          "normal": "Começa entre 6-9 meses. Pico aos 12-18 meses. É sinal saudável de vínculo com cuidadores.",
+          "what_to_do": "Não forçar interação com estranhos, apresentar pessoas novas gradualmente, manter calma.",
+          "seek_doctor_if": "Não demonstra preferência por cuidadores aos 9 meses.",
+          "source": "SBP — Desenvolvimento Infantil, 2022"
+        },
+        {
+          "id": "social_balbucio",
+          "title": "Balbucio",
+          "normal": "Sons vocais: 2-3 meses. Balbucio (ba-ba, da-da): 6-9 meses. Não é fala com significado ainda.",
+          "what_to_do": "Conversar muito com o bebê, responder aos sons que ele faz, narrar atividades do dia.",
+          "seek_doctor_if": "Não faz sons aos 4 meses, não balbucia aos 9 meses, parou de vocalizar.",
+          "source": "CDC — Communication Milestones, 2023"
+        },
+        {
+          "id": "social_apontar",
+          "title": "Apontar e atenção compartilhada",
+          "normal": "9-12 meses. Bebê aponta para mostrar algo ou pedir. Olha pra você pra compartilhar interesse.",
+          "what_to_do": "Apontar para coisas interessantes, seguir o olhar do bebê, nomear objetos.",
+          "seek_doctor_if": "Não aponta nem segue apontamento aos 12 meses, não busca compartilhar interesse.",
+          "source": "AAP — Early Signs of Autism, 2023"
+        }
+      ]
+    },
+    {
+      "id": "corpo",
+      "name": "Corpo",
+      "situations": [
+        {
+          "id": "corpo_denticao_gengiva",
+          "title": "Gengiva inchada por dentição",
+          "normal": "Sim, entre 4-7 meses. A gengiva pode ficar vermelha e sensível antes do dente romper.",
+          "what_to_do": "Mordedor gelado (não congelado), massagem leve na gengiva com dedo limpo. Evitar géis com benzocaína.",
+          "seek_doctor_if": "Febre acima de 38°C, recusa alimentar por mais de 24h, inchaço com pus.",
+          "source": "SBP — Caderneta da Criança, 2023"
+        },
+        {
+          "id": "corpo_denticao_baba",
+          "title": "Babar muito por dentição",
+          "normal": "Sim. Salivação aumenta semanas antes do dente aparecer. Pode começar aos 3-4 meses mesmo sem dente visível.",
+          "what_to_do": "Babador pra manter roupa seca, secar o queixo pra evitar assadura.",
+          "seek_doctor_if": "Dificuldade pra engolir, tosse persistente, irritação severa na pele.",
+          "source": "AAP — HealthyChildren.org, 2023"
+        },
+        {
+          "id": "corpo_fontanela",
+          "title": "Fontanela (moleira)",
+          "normal": "Moleira aberta até 9-18 meses. Pode pulsar (é normal). Leve abaulamento quando chora é normal.",
+          "what_to_do": "Não precisa de cuidado especial. Membrana é resistente.",
+          "seek_doctor_if": "Fontanela muito funda (desidratação), muito estufada em repouso, fechou antes de 6 meses.",
+          "source": "SBP — Pediatria Ambulatorial, 2022"
+        },
+        {
+          "id": "corpo_coco_frequencia",
+          "title": "Frequência de cocô",
+          "normal": "Amamentados: de 8x/dia a 1x a cada 7-10 dias. Fórmula: mais regular, 1-3x/dia. Consistência importa mais que frequência.",
+          "what_to_do": "Observar se bebê está confortável e cocô é pastoso/mole. Massagem na barriga se desconforto.",
+          "seek_doctor_if": "Cocô duro em bolinhas, sangue nas fezes, não evacua há 10+ dias com desconforto.",
+          "source": "SBP — Constipação Infantil, 2022"
+        },
+        {
+          "id": "corpo_umbigo",
+          "title": "Cuidados com o coto umbilical",
+          "normal": "Cai entre 7-21 dias. Pode ter cheiro leve e secreção clara/amarelada na base.",
+          "what_to_do": "Manter seco e limpo. Limpar com álcool 70% ou água e secar bem. Dobrar fralda abaixo do coto.",
+          "seek_doctor_if": "Vermelhidão ao redor, secreção com pus ou mau cheiro, sangramento ativo, não caiu após 3 semanas.",
+          "source": "SBP — Cuidados com RN, 2023"
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "name": "Saúde",
+      "situations": [
+        {
+          "id": "saude_febre",
+          "title": "Febre",
+          "normal": "Acima de 37.8°C axilar é febre. Pode indicar infecção ou reação vacinal.",
+          "what_to_do": "Medir temperatura, tirar excesso de roupa, oferecer líquidos. Antitérmico conforme peso e orientação médica.",
+          "seek_doctor_if": "Bebê < 3 meses com qualquer febre, febre > 39°C, febre por mais de 72h, prostração intensa.",
+          "source": "SBP — Febre na Infância, 2023"
+        },
+        {
+          "id": "saude_gripe_resfriado",
+          "title": "Gripe e resfriado",
+          "normal": "6-8 resfriados por ano é normal em bebês. Sintomas: coriza, espirros, tosse leve, febre baixa.",
+          "what_to_do": "Lavagem nasal com soro, aspirar secreção, umidificar ambiente, manter hidratação.",
+          "seek_doctor_if": "Dificuldade para respirar, febre alta, recusa alimentar, bebê < 3 meses.",
+          "source": "SBP — IVAS na Infância, 2022"
+        },
+        {
+          "id": "saude_refluxo",
+          "title": "Refluxo e regurgitação",
+          "normal": "Regurgitar após mamadas é comum até 12 meses. Pico aos 4 meses. 'Happy spitter' não é problema.",
+          "what_to_do": "Manter elevado 20-30min após mamada, não apertar fralda na barriga, mamadas menores e mais frequentes.",
+          "seek_doctor_if": "Vômito em jato, não ganha peso, choro intenso durante/após mamadas, recusa alimentar.",
+          "source": "NASPGHAN — Refluxo Pediátrico, 2022"
+        },
+        {
+          "id": "saude_colica",
+          "title": "Cólica",
+          "normal": "Choro intenso > 3h/dia, > 3 dias/semana, por > 3 semanas. Comum entre 2-12 semanas. Bebê saudável.",
+          "what_to_do": "Shushing, swinging, posição de bruços no colo, ruído branco, passeio de carro. Revezar com parceiro.",
+          "seek_doctor_if": "Febre junto, vômitos, sangue nas fezes, não ganha peso, choro muda de padrão.",
+          "source": "AAP — Colic Relief, 2023"
+        },
+        {
+          "id": "saude_vacinas_reacao",
+          "title": "Reação a vacinas",
+          "normal": "Dor no local, febre baixa (< 38.5°C), irritabilidade por 24-48h. Comum e esperado.",
+          "what_to_do": "Compressa fria no local, antitérmico se febre ou dor, colo e conforto.",
+          "seek_doctor_if": "Febre > 39°C, choro inconsolável > 3h, reação alérgica (inchaço, manchas, dificuldade respirar).",
+          "source": "SBP — Calendário Vacinal, 2024"
+        }
+      ]
+    },
+    {
+      "id": "seguranca",
+      "name": "Segurança",
+      "situations": [
+        {
+          "id": "seguranca_queda_cama",
+          "title": "Queda da cama ou trocador",
+          "normal": "Acidentes acontecem. Maioria das quedas de baixa altura não causa lesão grave.",
+          "what_to_do": "Observar por 24-48h: comportamento, choro, alimentação, sono. Aplicar gelo se hematoma.",
+          "seek_doctor_if": "Perda de consciência, vômitos repetidos, sonolência excessiva, choro inconsolável, convulsão, inchaço grande na cabeça.",
+          "source": "SBP — Trauma Craniano Leve, 2022"
+        },
+        {
+          "id": "seguranca_objetos_boca",
+          "title": "Levar objetos à boca",
+          "normal": "Fase oral intensa dos 4-12 meses. É forma de exploração, não comportamento problema.",
+          "what_to_do": "Remover objetos pequenos do alcance (regra: menor que rolo de papel higiênico é risco). Brinquedos apropriados para morder.",
+          "seek_doctor_if": "Suspeita de ingestão de objeto, bateria, ímã, objeto pontiagudo — emergência.",
+          "source": "AAP — Choking Prevention, 2023"
+        },
+        {
+          "id": "seguranca_banho",
+          "title": "Segurança no banho",
+          "normal": "Bebê nunca deve ficar sozinho na água. Afogamento pode acontecer em 2cm de água em segundos.",
+          "what_to_do": "Temperatura da água: 36-37°C. Uma mão sempre no bebê. Preparar tudo antes de começar.",
+          "seek_doctor_if": "Bebê submergiu e engoliu água, tosse persistente após banho, mudança de comportamento.",
+          "source": "SBP — Prevenção de Acidentes, 2023"
+        },
+        {
+          "id": "seguranca_sol",
+          "title": "Exposição ao sol",
+          "normal": "Bebês < 6 meses: evitar sol direto. Protetor solar só após 6 meses.",
+          "what_to_do": "Sol indireto de manhã (antes das 10h) para vitamina D. Roupas, chapéu, sombra.",
+          "seek_doctor_if": "Queimadura solar com bolhas, febre após exposição, sinais de desidratação.",
+          "source": "SBP — Fotoproteção na Infância, 2022"
+        },
+        {
+          "id": "seguranca_transporte_carro",
+          "title": "Bebê conforto no carro",
+          "normal": "Sempre virado para trás até pelo menos 2 anos ou limite do equipamento. Posição correta: 45° para RN.",
+          "what_to_do": "Instalar conforme manual, cintos justos (1 dedo entre cinto e corpo), sem casacos grossos.",
+          "seek_doctor_if": "Acidente de carro, mesmo sem lesão visível — avaliação médica indicada.",
+          "source": "AAP — Car Seat Safety, 2023"
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "name": "Comportamento",
+      "situations": [
+        {
+          "id": "comportamento_choro_excessivo",
+          "title": "Choro excessivo",
+          "normal": "Pico de choro às 6-8 semanas (até 3h/dia). Diminui gradualmente até 3-4 meses.",
+          "what_to_do": "Verificar fome, fralda, sono, temperatura. Técnicas de acalmar (5 S's). Revezar com parceiro. Colocar no berço seguro e respirar se precisar.",
+          "seek_doctor_if": "Choro diferente do habitual, febre, recusa alimentar, inconsolável por horas, você está no limite.",
+          "source": "AAP — Period of PURPLE Crying, 2023"
+        },
+        {
+          "id": "comportamento_irritacao",
+          "title": "Bebê irritado sem motivo aparente",
+          "normal": "Final do dia mais difícil é comum ('hora da bruxa'). Saltos de desenvolvimento causam irritação temporária.",
+          "what_to_do": "Reduzir estímulos, ambiente calmo, rotina consistente, contato pele a pele.",
+          "seek_doctor_if": "Irritação constante, associada a recusa alimentar, febre, ou mudança súbita de comportamento.",
+          "source": "SBP — Desenvolvimento Infantil, 2022"
+        },
+        {
+          "id": "comportamento_apego",
+          "title": "Apego extremo a um cuidador",
+          "normal": "Normal a partir dos 6-8 meses. Preferência por figura principal de apego é sinal saudável.",
+          "what_to_do": "Outros cuidadores manterem presença consistente, não forçar separação, despedidas breves e confiantes.",
+          "seek_doctor_if": "Pânico extremo em qualquer separação após 18 meses, sem melhora gradual.",
+          "source": "AAP — Separation Anxiety, 2022"
+        },
+        {
+          "id": "comportamento_rotina",
+          "title": "Estabelecer rotina",
+          "normal": "Antes dos 3 meses: não há rotina fixa, é sob demanda. A partir dos 3-4 meses: rotina previsível ajuda.",
+          "what_to_do": "Sequências consistentes (banho → mamada → ninar), horários aproximados, ambiente diferenciado para dia e noite.",
+          "seek_doctor_if": "Não há indicação médica direta. Procure ajuda se exaustão dos cuidadores estiver afetando saúde.",
+          "source": "Sleep Foundation — Baby Routines, 2023"
+        },
+        {
+          "id": "comportamento_autoconsolacao",
+          "title": "Chupar dedo ou mão",
+          "normal": "Normal e saudável nos primeiros anos. É forma de autoconsolação.",
+          "what_to_do": "Não impedir nem chamar atenção negativa. Oferecer chupeta como alternativa se preferir.",
+          "seek_doctor_if": "Lesões nos dedos por sucção intensa, persistência após 4 anos com impacto dental.",
+          "source": "AAP — Thumb Sucking, 2023"
+        }
+      ]
+    }
+  ]
+}
