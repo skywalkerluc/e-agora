@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.0",
+    "version": "2.0",
     "target_age": "0-12 meses",
     "last_updated": "2025-01-31"
   },
@@ -48,6 +48,30 @@
           "what_to_do": "No gag: não interferir, deixar bebê resolver. No engasgo real: bebê silencioso, sem ar, lábios roxos — agir imediato.",
           "seek_doctor_if": "Engasgo real aconteceu (mesmo se resolvido), gag excessivo em todas as refeições.",
           "source": "Cruz Vermelha — Primeiros Socorros Pediátricos, 2023"
+        },
+        {
+          "id": "arrotar",
+          "title": "Arrotar o bebê",
+          "normal": "Nem todo bebê arrota após mamar. Alguns arrotam fácil, outros não precisam. Amamentados engolem menos ar que os de mamadeira.",
+          "what_to_do": "Pausar a mamada no meio e no final para tentar. Posições: apoiado no ombro, sentado no colo, ou de bruços no seu braço. 5-10 minutos é suficiente.",
+          "seek_doctor_if": "Desconforto intenso após mamadas mesmo com tentativas de arrotar, vômitos frequentes em jato.",
+          "source": "AAP — Burping Your Baby, 2023"
+        },
+        {
+          "id": "soluço",
+          "title": "Soluço frequente",
+          "normal": "Muito comum em recém-nascidos. Diafragma ainda imaturo. Pode durar 10-15 minutos. Não incomoda o bebê tanto quanto parece.",
+          "what_to_do": "Esperar passar. Amamentar pode ajudar. Não precisa de água, chá ou susto.",
+          "seek_doctor_if": "Soluço constante por horas, associado a vômitos ou irritabilidade intensa, interfere no sono ou alimentação.",
+          "source": "SBP — Cuidados com RN, 2023"
+        },
+        {
+          "id": "alergia_alimentar",
+          "title": "Sinais de alergia alimentar",
+          "normal": "Alergias alimentares afetam 6-8% dos bebês. Mais comuns: leite de vaca, ovo, amendoim, trigo, soja.",
+          "what_to_do": "Introduzir um alimento novo a cada 3 dias para identificar reações. Anotar o que ofereceu e quando.",
+          "seek_doctor_if": "Urticária, inchaço de lábios/olhos, vômitos repetidos, diarreia com sangue, dificuldade para respirar (emergência), eczema persistente.",
+          "source": "ASBAI — Alergia Alimentar na Infância, 2023"
         }
       ]
     },
@@ -72,11 +96,27 @@
           "source": "Sleep Foundation — Baby Sleep Regression, 2023"
         },
         {
+          "id": "sono_regressao_8_12_meses",
+          "title": "Regressões de sono aos 8-12 meses",
+          "normal": "Comuns. Associadas a saltos de desenvolvimento, ansiedade de separação, aprender a engatinhar/andar. Duram 2-4 semanas.",
+          "what_to_do": "Manter rotina consistente, oferecer conforto sem criar novos hábitos, praticar separações curtas durante o dia.",
+          "seek_doctor_if": "Mudança súbita sem explicação, febre, sinais de dor de ouvido, irritabilidade extrema diurna.",
+          "source": "Sleep Foundation — Baby Sleep Regression, 2023"
+        },
+        {
           "id": "sono_posicao",
           "title": "Posição segura para dormir",
           "normal": "Sempre de barriga pra cima até 1 ano. Quando bebê rola sozinho (ambos os lados), pode ficar na posição que escolher.",
           "what_to_do": "Berço sem travesseiros, cobertores soltos, bichos de pelúcia. Colchão firme. Temperatura ambiente confortável.",
           "seek_doctor_if": "Bebê só dorme de bruços e ainda não rola, dificuldade respiratória em qualquer posição.",
+          "source": "AAP — Safe Sleep Guidelines, 2022"
+        },
+        {
+          "id": "sono_morte_subita",
+          "title": "Prevenção de morte súbita (SMSL)",
+          "normal": "SMSL é rara, mas é a principal causa de morte em bebês de 1-12 meses. Pico entre 2-4 meses. Maioria ocorre durante o sono.",
+          "what_to_do": "Sempre de barriga pra cima. Berço no quarto dos pais até 6-12 meses. Nada solto no berço. Não superaquecer. Não fumar perto do bebê. Oferecer chupeta.",
+          "seek_doctor_if": "Bebê teve episódio de parar de respirar, ficou roxo/pálido, precisou ser estimulado para voltar a respirar.",
           "source": "AAP — Safe Sleep Guidelines, 2022"
         },
         {
@@ -140,6 +180,14 @@
           "what_to_do": "Deixar descalço em casa, móveis para apoio, não usar andador (risco de atraso e acidentes).",
           "seek_doctor_if": "Não anda aos 18 meses, anda só na ponta dos pés, assimetria marcante.",
           "source": "SBP — Caderneta da Criança, 2023"
+        },
+        {
+          "id": "motor_tummy_time",
+          "title": "Tummy time (tempo de bruços)",
+          "normal": "Bebê pode não gostar no início. Começar com 1-2 minutos, várias vezes ao dia. Aumentar gradualmente.",
+          "what_to_do": "Fazer quando bebê está acordado e alerta. Deitar junto, usar espelho, brinquedos coloridos. No seu peito conta como tummy time.",
+          "seek_doctor_if": "Bebê não tolera nenhum tempo de bruços aos 2-3 meses, assimetria de movimento, não levanta a cabeça brevemente.",
+          "source": "AAP — Back to Sleep, Tummy to Play, 2023"
         }
       ]
     },
@@ -186,6 +234,22 @@
           "what_to_do": "Apontar para coisas interessantes, seguir o olhar do bebê, nomear objetos.",
           "seek_doctor_if": "Não aponta nem segue apontamento aos 12 meses, não busca compartilhar interesse.",
           "source": "AAP — Early Signs of Autism, 2023"
+        },
+        {
+          "id": "social_reconhecer_nome",
+          "title": "Reconhecer o próprio nome",
+          "normal": "Começa a responder ao nome entre 5-7 meses. Resposta consistente por volta dos 9 meses.",
+          "what_to_do": "Usar o nome do bebê frequentemente, chamar quando ele não está olhando, celebrar quando responde.",
+          "seek_doctor_if": "Não responde ao nome aos 9-12 meses, mesmo quando não está distraído.",
+          "source": "CDC — Communication Milestones, 2023"
+        },
+        {
+          "id": "social_dar_tchau",
+          "title": "Dar tchau e bater palma",
+          "normal": "8-12 meses. Bebê imita gestos sociais. Começa sem entender significado, depois associa ao contexto.",
+          "what_to_do": "Fazer gestos na frente do bebê, comemorar imitações, repetir em contextos apropriados (tchau quando alguém sai).",
+          "seek_doctor_if": "Não imita nenhum gesto aos 12 meses.",
+          "source": "CDC — Social Milestones, 2023"
         }
       ]
     },
@@ -232,6 +296,46 @@
           "what_to_do": "Manter seco e limpo. Limpar com álcool 70% ou água e secar bem. Dobrar fralda abaixo do coto.",
           "seek_doctor_if": "Vermelhidão ao redor, secreção com pus ou mau cheiro, sangramento ativo, não caiu após 3 semanas.",
           "source": "SBP — Cuidados com RN, 2023"
+        },
+        {
+          "id": "corpo_assadura",
+          "title": "Assadura de fralda",
+          "normal": "Muito comum. Pele vermelha na área da fralda. Piora com umidade, atrito, e contato prolongado com urina/fezes.",
+          "what_to_do": "Trocar fralda frequentemente, deixar sem fralda quando possível, usar pomada de barreira (óxido de zinco) a cada troca, secar bem antes de fechar.",
+          "seek_doctor_if": "Feridas abertas, bolhas, pus, assadura que não melhora em 3-4 dias, ou se espalha para fora da área da fralda.",
+          "source": "SBP — Dermatite de Fralda, 2022"
+        },
+        {
+          "id": "corpo_crosta_lactea",
+          "title": "Crosta láctea (casquinhas no couro cabeludo)",
+          "normal": "Comum nos primeiros meses. Placas amareladas ou esbranquiçadas no couro cabeludo. Não coça nem incomoda o bebê.",
+          "what_to_do": "Aplicar óleo vegetal ou mineral, deixar agir 15-20min, massagear suavemente, lavar com shampoo neutro e pentear com escova macia.",
+          "seek_doctor_if": "Se espalha para rosto/corpo, vermelhidão intensa, coceira, infecção secundária.",
+          "source": "SBP — Dermatologia Pediátrica, 2022"
+        },
+        {
+          "id": "corpo_ictericia",
+          "title": "Icterícia (pele amarelada)",
+          "normal": "Comum nos primeiros dias. Bilirrubina se acumula enquanto fígado amadurece. Aparece no rosto e desce pro corpo.",
+          "what_to_do": "Amamentar frequentemente (8-12x/dia). Banho de sol não é mais recomendado. Acompanhar se está aumentando ou diminuindo.",
+          "seek_doctor_if": "Aparece nas primeiras 24h de vida, atinge palmas/plantas, bebê muito sonolento ou irritado, não mama bem, persiste após 2 semanas.",
+          "source": "SBP — Icterícia Neonatal, 2023"
+        },
+        {
+          "id": "corpo_olho_lacrimejando",
+          "title": "Olho lacrimejando ou com secreção",
+          "normal": "Canal lacrimal obstruído afeta até 20% dos bebês. Lágrima acumula, pode ter secreção amarelada ao acordar. Geralmente resolve até 12 meses.",
+          "what_to_do": "Limpar com gaze e soro fisiológico. Massagem no canto interno do olho (técnica de Crigler): pressão suave de cima pra baixo, 2-3x ao dia.",
+          "seek_doctor_if": "Inchaço ou vermelhidão ao redor do olho, secreção verde abundante, olho não abre, febre.",
+          "source": "AAP — Blocked Tear Ducts, 2023"
+        },
+        {
+          "id": "corpo_pele_descamando",
+          "title": "Pele ressecada ou descamando",
+          "normal": "Normal nas primeiras semanas, especialmente em bebês pós-termo. Pele está se adaptando ao ambiente fora do útero.",
+          "what_to_do": "Hidratar com óleo ou creme neutro após o banho. Banhos curtos, água morna. Não precisa esfregar.",
+          "seek_doctor_if": "Rachaduras profundas, sangramento, vermelhidão intensa, descamação que não melhora após 1 mês.",
+          "source": "SBP — Cuidados com a Pele do RN, 2022"
         }
       ]
     },
@@ -278,6 +382,30 @@
           "what_to_do": "Compressa fria no local, antitérmico se febre ou dor, colo e conforto.",
           "seek_doctor_if": "Febre > 39°C, choro inconsolável > 3h, reação alérgica (inchaço, manchas, dificuldade respirar).",
           "source": "SBP — Calendário Vacinal, 2024"
+        },
+        {
+          "id": "saude_conjuntivite",
+          "title": "Conjuntivite (olho vermelho)",
+          "normal": "Não é normal, mas é comum. Olho vermelho, lacrimejando, com secreção. Pode ser viral, bacteriana ou alérgica.",
+          "what_to_do": "Limpar com gaze e soro fisiológico, do canto interno pro externo. Usar gaze separada para cada olho. Lavar bem as mãos.",
+          "seek_doctor_if": "Sempre levar ao pediatra para avaliar tipo e necessidade de colírio. Urgente se: inchaço da pálpebra, dor, sensibilidade à luz, bebê < 1 mês.",
+          "source": "SBP — Conjuntivite na Infância, 2022"
+        },
+        {
+          "id": "saude_otite",
+          "title": "Otite (dor de ouvido)",
+          "normal": "Comum após resfriados. Bebê irritado, leva mão ao ouvido, chora mais ao deitar, pode ter febre.",
+          "what_to_do": "Antitérmico/analgésico conforme orientação médica. Manter nariz limpo. Não colocar nada no ouvido.",
+          "seek_doctor_if": "Sempre. Otite precisa de avaliação médica para definir tratamento. Urgente se: secreção saindo do ouvido, febre alta, bebê muito prostrado.",
+          "source": "SBP — Otite Média Aguda, 2022"
+        },
+        {
+          "id": "saude_sapinho",
+          "title": "Sapinho (candidíase oral)",
+          "normal": "Comum nos primeiros meses. Placas brancas na língua, bochechas internas, céu da boca. Não sai com gaze.",
+          "what_to_do": "Levar ao pediatra para confirmar e prescrever antifúngico. Ferver chupetas e bicos. Tratar mama se amamentando.",
+          "seek_doctor_if": "Sempre, para confirmar diagnóstico e tratar. Urgente se: bebê não consegue mamar, muito irritado, placas se espalhando.",
+          "source": "SBP — Candidíase Oral Neonatal, 2022"
         }
       ]
     },
@@ -324,6 +452,14 @@
           "what_to_do": "Instalar conforme manual, cintos justos (1 dedo entre cinto e corpo), sem casacos grossos.",
           "seek_doctor_if": "Acidente de carro, mesmo sem lesão visível — avaliação médica indicada.",
           "source": "AAP — Car Seat Safety, 2023"
+        },
+        {
+          "id": "seguranca_casa_bebe_prova",
+          "title": "Casa à prova de bebê",
+          "normal": "Acidentes domésticos são a principal causa de lesões em bebês. Prevenção começa antes do bebê se mover.",
+          "what_to_do": "Proteger tomadas, trancar armários baixos, portões em escadas, fixar móveis na parede, nada pendurado no berço, atenção a cordas de cortina.",
+          "seek_doctor_if": "Qualquer acidente com perda de consciência, sangramento que não para, queimadura, suspeita de ingestão de produto tóxico.",
+          "source": "SBP — Prevenção de Acidentes, 2023"
         }
       ]
     },
@@ -370,6 +506,22 @@
           "what_to_do": "Não impedir nem chamar atenção negativa. Oferecer chupeta como alternativa se preferir.",
           "seek_doctor_if": "Lesões nos dedos por sucção intensa, persistência após 4 anos com impacto dental.",
           "source": "AAP — Thumb Sucking, 2023"
+        },
+        {
+          "id": "comportamento_birra",
+          "title": "Birra e frustração",
+          "normal": "Começa por volta dos 12 meses, pico entre 18-36 meses. Bebê quer autonomia mas não tem habilidade ainda. É desenvolvimento saudável.",
+          "what_to_do": "Manter calma, não ceder nem punir. Validar sentimento ('você está com raiva'), redirecionar, oferecer escolhas limitadas. Esperar passar se for seguro.",
+          "seek_doctor_if": "Birras muito frequentes e intensas que interferem no dia-a-dia, autoagressão, agressão a outros, regressão de habilidades.",
+          "source": "AAP — Temper Tantrums, 2023"
+        },
+        {
+          "id": "comportamento_mordida",
+          "title": "Morder",
+          "normal": "Comum entre 8-14 meses, especialmente na dentição. Também pode ser exploração ou frustração. Não é agressividade.",
+          "what_to_do": "Dizer 'não' firme e breve, sem gritar. Oferecer mordedor. Não morder de volta. Supervisionar interação com outras crianças.",
+          "seek_doctor_if": "Não há indicação médica. Se persistir muito além dos 2-3 anos, pode valer avaliação comportamental.",
+          "source": "AAP — Biting, 2022"
         }
       ]
     }
