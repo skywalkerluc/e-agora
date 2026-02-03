@@ -1,7 +1,13 @@
 {
   "name": "e-agora",
-  "private": true,
   "version": "1.0.0",
+  "description": "Guia rápido para os primeiros 12 meses do bebê",
+  "author": "Lucas Ferreira",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasferreira/e-agora"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
