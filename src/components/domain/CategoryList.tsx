@@ -10,9 +10,7 @@ interface CategoryListProps {
 }
 
 function CategoryList({ categories, highlight = false }: CategoryListProps) {
-  const [expandedCategories, setExpandedCategories] = useState<Set<string>>(
-    highlight ? new Set(categories.map((c) => c.id)) : new Set()
-  );
+  const [expandedCategories, setExpandedCategories] = useState<Set<string>>(new Set());
   const navigate = useNavigate();
 
   const toggleCategory = (categoryId: string) => {
