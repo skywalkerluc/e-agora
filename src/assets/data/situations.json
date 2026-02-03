@@ -6,6 +6,102 @@
   },
   "categories": [
     {
+      "id": "emergencia",
+      "name": "⚠️ Sinais de Emergência",
+      "situations": [
+        {
+          "id": "emergencia_dificuldade_respiratoria",
+          "title": "Dificuldade para respirar",
+          "normal": "NÃO é normal. Respiração rápida, afundamento de costelas, batimento de asa do nariz, ou chiado forte são emergências.",
+          "what_to_do": "Ligar 192 (SAMU) imediatamente. Se bebê parou de respirar, iniciar RCP infantil se souber.",
+          "seek_doctor_if": "Ir AGORA ao pronto-socorro: respiração rápida (>60/min em RN, >40/min após 6m), costelas afundando, batimento de asa do nariz, lábios roxos/azulados, pausas respiratórias.",
+          "source": "AAP — Respiratory Distress in Infants, 2023",
+          "urgency_level": "emergency",
+          "age_range": { "min": 0, "max": 12 },
+          "keywords": ["falta de ar", "respiração difícil", "chiado", "sufocando", "engasgado", "roxo", "cianose"]
+        },
+        {
+          "id": "emergencia_febre_recem_nascido",
+          "title": "Febre em bebê menor de 3 meses",
+          "normal": "NÃO é normal. Qualquer febre (>37.8°C) em bebê <3 meses é emergência até prova em contrário.",
+          "what_to_do": "Ir imediatamente ao pronto-socorro. Não dar antitérmico antes de avaliação médica.",
+          "seek_doctor_if": "AGORA: qualquer febre em bebê <3 meses. Sistema imune imaturo, risco de infecção grave (meningite, sepse).",
+          "source": "SBP — Febre no Período Neonatal, 2023",
+          "urgency_level": "emergency",
+          "age_range": { "min": 0, "max": 3 },
+          "keywords": ["temperatura alta", "quentinho", "recém-nascido febril"]
+        },
+        {
+          "id": "emergencia_fontanela_tensa",
+          "title": "Fontanela (moleira) muito tensa ou afundada",
+          "normal": "NÃO é normal. Fontanela muito tensa em repouso pode indicar aumento de pressão cerebral. Muito afundada indica desidratação grave.",
+          "what_to_do": "Ir ao pronto-socorro imediatamente. Não esperar.",
+          "seek_doctor_if": "AGORA: fontanela abaulada/tensa quando bebê está calmo, ou muito afundada com outros sinais (boca seca, choro sem lágrima).",
+          "source": "SBP — Emergências Neurológicas Pediátricas, 2022",
+          "urgency_level": "emergency",
+          "age_range": { "min": 0, "max": 18 },
+          "keywords": ["moleira estufada", "moleira funda", "moleira dura"]
+        },
+        {
+          "id": "emergencia_letargia",
+          "title": "Letargia extrema ou não responde",
+          "normal": "NÃO é normal. Bebê que não acorda, não reage a estímulos, muito mole (hipotônico), ou 'olhar parado' é emergência.",
+          "what_to_do": "Ligar 192 (SAMU) ou ir imediatamente ao pronto-socorro. Tentar acordar o bebê gentilmente.",
+          "seek_doctor_if": "AGORA: bebê não acorda, difícil de acordar, não reage quando estimulado, muito mole, convulsão.",
+          "source": "AAP — Altered Mental Status in Infants, 2023",
+          "urgency_level": "emergency",
+          "age_range": { "min": 0, "max": 12 },
+          "keywords": ["desmaiado", "desacordado", "molinho demais", "não acorda", "apático"]
+        },
+        {
+          "id": "emergencia_convulsao",
+          "title": "Convulsão",
+          "normal": "NÃO é normal. Movimentos involuntários, tremores generalizados, olhos revirados, perda de consciência.",
+          "what_to_do": "Deitar de lado, proteger a cabeça, NÃO colocar nada na boca. Cronometrar duração. Ligar 192 se durar >5min ou for a primeira vez.",
+          "seek_doctor_if": "AGORA após a convulsão. Mesmo convulsão febril precisa de avaliação. Urgente se: duração >5min, múltiplas convulsões, primeira vez.",
+          "source": "SBP — Convulsões na Infância, 2023",
+          "urgency_level": "emergency",
+          "age_range": { "min": 0, "max": 12 },
+          "keywords": ["ataque epiléptico", "tremendo", "enrijeceu", "olhos viraram"]
+        },
+        {
+          "id": "emergencia_desidratacao_grave",
+          "title": "Sinais de desidratação grave",
+          "normal": "NÃO é normal. Fontanela muito funda, boca/língua muito secas, choro sem lágrima, <4 fraldas molhadas em 24h, urina escura concentrada.",
+          "what_to_do": "Ir ao pronto-socorro. Desidratação grave precisa de hidratação venosa.",
+          "seek_doctor_if": "AGORA: fontanela funda, boca muito seca, sem lágrimas ao chorar, poucas fraldas molhadas, letargia, pele não volta ao normal quando beliscada.",
+          "source": "SBP — Desidratação em Lactentes, 2022",
+          "urgency_level": "emergency",
+          "age_range": { "min": 0, "max": 12 },
+          "keywords": ["desidratado", "boca seca", "sem xixi", "olho fundo"],
+          "related_ids": ["corpo_fontanela", "saude_diarreia_desidratacao"]
+        },
+        {
+          "id": "emergencia_vomito_sangue",
+          "title": "Sangue no vômito ou nas fezes",
+          "normal": "NÃO é normal. Sangue vivo (vermelho) ou escuro (borra de café) no vômito, ou sangue nas fezes precisa de avaliação urgente.",
+          "what_to_do": "Ir ao pronto-socorro. Levar fralda ou foto se possível para mostrar ao médico.",
+          "seek_doctor_if": "AGORA: sangue no vômito (vermelho ou marrom escuro), fezes com sangue vivo, fezes pretas como alcatrão, dor abdominal intensa.",
+          "source": "SBP — Hemorragia Digestiva Pediátrica, 2022",
+          "urgency_level": "emergency",
+          "age_range": { "min": 0, "max": 12 },
+          "keywords": ["vomitou sangue", "cocô com sangue", "fezes pretas", "sangramento"]
+        },
+        {
+          "id": "emergencia_cianose",
+          "title": "Lábios ou rosto roxo/azulado",
+          "normal": "NÃO é normal (exceto extremidades levemente azuladas nos primeiros dias). Cianose central (lábios, língua, rosto) é emergência.",
+          "what_to_do": "Ligar 192 imediatamente. Verificar se bebê está respirando. Iniciar RCP se necessário.",
+          "seek_doctor_if": "AGORA: lábios azulados/roxos, língua roxa, palidez extrema com lábios escuros. Pode indicar falta de oxigenação.",
+          "source": "AAP — Cyanosis in Newborns, 2023",
+          "urgency_level": "emergency",
+          "age_range": { "min": 0, "max": 12 },
+          "keywords": ["azul", "roxo", "pálido demais", "cor estranha"],
+          "related_ids": ["emergencia_dificuldade_respiratoria"]
+        }
+      ]
+    },
+    {
       "id": "alimentacao",
       "name": "Alimentação",
       "situations": [
@@ -72,6 +168,30 @@
           "what_to_do": "Introduzir um alimento novo a cada 3 dias para identificar reações. Anotar o que ofereceu e quando.",
           "seek_doctor_if": "Urticária, inchaço de lábios/olhos, vômitos repetidos, diarreia com sangue, dificuldade para respirar (emergência), eczema persistente.",
           "source": "ASBAI — Alergia Alimentar na Infância, 2023"
+        },
+        {
+          "id": "alimentacao_agua",
+          "title": "Quando oferecer água",
+          "normal": "Bebês em aleitamento materno exclusivo NÃO precisam de água até 6 meses, nem em dias quentes. O leite materno já tem toda água necessária. Bebês em fórmula também não precisam de água extra se tomam quantidade adequada.",
+          "what_to_do": "Oferecer água apenas após início da alimentação complementar (6 meses). Quantidade: pequenos goles entre refeições. Evitar excesso para não diminuir apetite.",
+          "seek_doctor_if": "Sinais de desidratação mesmo amamentando/tomando fórmula: fontanela funda, boca seca, poucas fraldas molhadas.",
+          "source": "OMS — Alimentação de Lactentes, 2022",
+          "urgency_level": "info",
+          "age_range": { "min": 0, "max": 12 },
+          "keywords": ["dar água", "hidratar", "sede", "água para bebê"],
+          "related_ids": ["introducao_alimentar_quando", "emergencia_desidratacao_grave"]
+        },
+        {
+          "id": "alimentacao_proibidos_1_ano",
+          "title": "Alimentos proibidos antes de 1 ano",
+          "normal": "Alguns alimentos são perigosos antes de 1 ano e devem ser evitados.",
+          "what_to_do": "NUNCA oferecer: mel (risco de botulismo infantil), açúcar adicionado, sal adicionado, leite de vaca integral (como bebida), alimentos ultraprocessados, sucos (mesmo naturais). Evitar também: alimentos duros/pequenos que causam engasgo (uva inteira, amendoim, pipoca).",
+          "seek_doctor_if": "Bebê ingeriu mel: observar sinais de botulismo (fraqueza muscular, choro fraco, dificuldade para sugar, constipação) por 2 semanas. Engasgo com alimento sólido: emergência se não consegue respirar.",
+          "source": "SBP — Guia Prático de Atualização: Alimentação nos Primeiros Mil Dias, 2021",
+          "urgency_level": "watch",
+          "age_range": { "min": 0, "max": 12 },
+          "keywords": ["mel proibido", "açúcar bebê", "sal bebê", "o que não dar", "alimentos perigosos"],
+          "related_ids": ["introducao_alimentar_quando", "engasgo_vs_gag"]
         }
       ]
     },
@@ -336,6 +456,17 @@
           "what_to_do": "Hidratar com óleo ou creme neutro após o banho. Banhos curtos, água morna. Não precisa esfregar.",
           "seek_doctor_if": "Rachaduras profundas, sangramento, vermelhidão intensa, descamação que não melhora após 1 mês.",
           "source": "SBP — Cuidados com a Pele do RN, 2022"
+        },
+        {
+          "id": "corpo_higiene_genital",
+          "title": "Limpeza e cuidados genitais",
+          "normal": "Meninas: limpar sempre da frente para trás. Corrimento branco/transparente leve é normal. Pequena aderência de lábios (sinéquia) pode ocorrer. Meninos: fimose fisiológica (prepúcio não retrai) é NORMAL até 3-5 anos. NÃO forçar.",
+          "what_to_do": "Meninas: água e sabonete neutro, apenas parte externa. Não lavar por dentro. Meninos: lavar apenas o que aparece, NUNCA forçar prepúcio. Retração forçada causa trauma e cicatriz.",
+          "seek_doctor_if": "Vermelhidão intensa, inchaço, dor, secreção com mau cheiro ou esverdeada, sangramento, dificuldade para urinar, febre.",
+          "source": "SBP — Higiene Genital em Lactentes, 2022",
+          "urgency_level": "info",
+          "age_range": { "min": 0, "max": 12 },
+          "keywords": ["fimose", "prepúcio", "sinéquia", "limpeza íntima", "pênis", "vulva", "higiene genital"]
         }
       ]
     },
@@ -406,6 +537,41 @@
           "what_to_do": "Levar ao pediatra para confirmar e prescrever antifúngico. Ferver chupetas e bicos. Tratar mama se amamentando.",
           "seek_doctor_if": "Sempre, para confirmar diagnóstico e tratar. Urgente se: bebê não consegue mamar, muito irritado, placas se espalhando.",
           "source": "SBP — Candidíase Oral Neonatal, 2022"
+        },
+        {
+          "id": "saude_bronquiolite",
+          "title": "Bronquiolite / VSR (Vírus Sincicial Respiratório)",
+          "normal": "Infecção viral comum em bebês <2 anos, principalmente no inverno. Começa como resfriado, evolui para chiado no peito e dificuldade respiratória. Pico de gravidade entre 3-7 dias.",
+          "what_to_do": "Lavar nariz com soro frequentemente, manter hidratação, elevar cabeceira. Observar respiração. Levar ao pediatra para avaliação.",
+          "seek_doctor_if": "URGENTE: respiração rápida ou difícil, afundamento de costelas, pausas respiratórias, recusa alimentar, desidratação, bebê <3 meses, lábios roxos. VSR pode agravar rapidamente.",
+          "source": "SBP — Bronquiolite Viral Aguda, 2023",
+          "urgency_level": "watch",
+          "age_range": { "min": 0, "max": 12 },
+          "keywords": ["chiado no peito", "sibilância", "VSR", "bronquiolite", "respiração difícil", "tosse forte"],
+          "related_ids": ["saude_gripe_resfriado", "emergencia_dificuldade_respiratoria"]
+        },
+        {
+          "id": "saude_diarreia_desidratacao",
+          "title": "Diarreia e sinais de desidratação",
+          "normal": "Diarreia (fezes aquosas frequentes) é comum em infecções virais/bacterianas. O maior risco é a desidratação, especialmente em bebês pequenos.",
+          "what_to_do": "Continuar amamentação/fórmula. Oferecer soro de reidratação oral entre mamadas. Observar sinais de desidratação: boca seca, poucas fraldas molhadas, fontanela funda, letargia.",
+          "seek_doctor_if": "Sinais de desidratação, sangue ou muco nas fezes, febre alta, vômitos que impedem hidratação, bebê <3 meses, diarreia por >7 dias.",
+          "source": "SBP — Doença Diarreica Aguda, 2022",
+          "urgency_level": "watch",
+          "age_range": { "min": 0, "max": 12 },
+          "keywords": ["cocô líquido", "fezes aquosas", "desidratado", "diarreia", "gastroenterite"],
+          "related_ids": ["emergencia_desidratacao_grave", "corpo_coco_frequencia"]
+        },
+        {
+          "id": "saude_brotoeja",
+          "title": "Brotoeja (miliária)",
+          "normal": "Bolinhas vermelhas pequenas, geralmente no pescoço, peito, costas, dobrinhas. Causada por calor e suor que entope glândulas. Muito comum em bebês.",
+          "what_to_do": "Manter bebê fresco, evitar excesso de roupa, banhos frescos (não frios), secar bem as dobrinhas, ambiente ventilado. Passa sozinho quando esfria.",
+          "seek_doctor_if": "Lesões com pus, febre, espalhamento rápido, coceira intensa que não melhora, suspeita de infecção secundária.",
+          "source": "SBP — Dermatoses Comuns na Infância, 2022",
+          "urgency_level": "info",
+          "age_range": { "min": 0, "max": 12 },
+          "keywords": ["bolinhas vermelhas", "alergia ao calor", "suor", "brotoeja", "miliária", "pintinhas"]
         }
       ]
     },

@@ -13,10 +13,13 @@ O app permite que pais busquem e consultem situações comuns do primeiro ano de
 
 ## Funcionalidades
 
-- Busca por texto com debounce
-- 8 categorias de situações (Alimentação, Sono, Desenvolvimento Motor, etc.)
+- **⚠️ Sinais de Emergência:** categoria destacada com sinais de alerta que exigem atenção médica imediata
+- **Busca inteligente:** busca por texto com debounce, incluindo sinônimos e termos populares
+- **54 situações:** organizadas em 9 categorias (Emergência, Alimentação, Sono, Desenvolvimento Motor, Social, Corpo, Saúde, Segurança, Comportamento)
+- **Níveis de urgência:** indicadores visuais (vermelho/amarelo/azul) para gravidade das situações
+- **Situações relacionadas:** links para tópicos conectados
+- **Fontes confiáveis:** SBP, AAP, OMS com links clicáveis quando disponíveis
 - Categorias expansíveis/colapsáveis
-- Página de detalhe para cada situação
 - PWA instalável e funciona 100% offline
 - Design mobile-first e acessível
 

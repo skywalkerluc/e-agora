@@ -11,7 +11,15 @@ function Home() {
   const debouncedSearch = useDebounce(searchQuery, 200);
   const { categories, allCategories } = useSituations(debouncedSearch);
 
-  const hasSearch = debouncedSearch.trim().length > 0;
+  const hasSearch = debouncedSearch.trim().length >= 3;
+
+  // Separar categoria de emergência
+  const emergencyCategory = (hasSearch ? categories : allCategories).find(
+    (cat) => cat.id === 'emergencia'
+  );
+  const otherCategories = (hasSearch ? categories : allCategories).filter(
+    (cat) => cat.id !== 'emergencia'
+  );
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-6 sm:py-8">
@@ -35,10 +43,16 @@ function Home() {
       </header>
 
       <main>
+        {emergencyCategory && (
+          <div className="mb-6">
+            <CategoryList categories={[emergencyCategory]} highlight />
+          </div>
+        )}
+
         {hasSearch ? (
-          <SearchResults categories={categories} />
+          <SearchResults categories={otherCategories} />
         ) : (
-          <CategoryList categories={allCategories} />
+          <CategoryList categories={otherCategories} />
         )}
       </main>
     </div>
